@@ -1,0 +1,48 @@
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation-menu li {
+  margin: 0px 20px;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  color: goldenrod !important;
+  font-weight: bold !important;
+}
+.Regbg{
+  background-color: rgb(95, 170, 52);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+}
+
+.register{
+  background-color: rgb(246, 247, 249);
+}
+/* mobile view */
+.mobile-navigation {
+  list-style: none;
+}
+.mobile-navigation li {
+  margin-top: 20px;
+}
+.mobile-navigation li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: black;
+}
+.LoginPage{
+  background-color: rgb(246, 244, 241);
+  
+}
+.register{
+  background-color: rgb(246, 247, 249);
+}
